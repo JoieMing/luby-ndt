@@ -1,4 +1,6 @@
 # A Differentiable Digital Twin of Distributed Link Scheduling for Contention-Aware Networking
+**arXiv preprint:** [arXiv:2512.10874](https://arxiv.org/abs/2512.10874)
+
 ## Abstract
 Many routing and flow optimization problems in wired networks can be solved efficiently using minimum cost flow formulations. 
 However, this approach does not extend to wireless multi-hop networks, where the assumptions of fixed link capacity and linear cost structure collapse due to contention for shared spectrum resources. 
