@@ -9,3 +9,23 @@ In this work, we pursue a new direction of modeling wireless network under rando
 We generalize randomized contention as finding a Maximal Independent Set (MIS) on the conflict graph using weighted Luby's algorithm, derive an analytical model of link duty cycles, and introduce an iterative procedure that resolves the circular dependency among duty cycle, link capacity, and contention probability. 
 Our numerical experiments show that the proposed NDT accurately predicts link duty cycles and congestion patterns with up to a 5000× speedup over packet-level simulation, and enables us to optimize link scheduling using gradient descent for reduced congestion and radio footprint.
 ## Instructions for replicate numerical experiments
+### Runtime evaluation
+```bash
+bash bash/dt_runtime.sh
+```
+### Applications in NDT based link scheduling optimization
+
+Baseline (Evaluate NDT performance under equal link priorities $z=1$) :
+```bash
+bash bash/dt_baseline.sh
+```
+
+Application 1 (Reduce congestion by optimizing link priorities using NDT-guided gradient descent) :
+```bash
+bash bash/dt_optimization.sh
+```
+
+Application 2 (Enhance congestion protection by combining optimized link priorities with NDT-guided contention gating) :
+```bash
+bash bash/dt_optimization_control.sh
+```

@@ -276,7 +276,7 @@ def plot_congestion_vs_queue(
 
 def init_pheromone_from_flows(bp_env, weight='delay'):
     ph = np.zeros_like(bp_env.pheromones)   # shape: (num_di_links, num_flows)
-    # create other feature matrices for GNNs
+    # create other feature matrices
     lambda_e_vec = np.zeros((bp_env.num_links,), dtype=float)
     lambda_mtx = csr_matrix(bp_env.adj_i.shape, dtype=float)
     lambda_mtx_dok = lambda_mtx.todok()
