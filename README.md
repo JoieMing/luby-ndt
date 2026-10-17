@@ -8,6 +8,19 @@ The key challenge is that the long-term capacity of a wireless link becomes a no
 In this work, we pursue a new direction of modeling wireless network under randomized medium access control by developing an analytical network digital twin (NDT) that predicts link duty cycles from network context. 
 We generalize randomized contention as finding a Maximal Independent Set (MIS) on the conflict graph using weighted Luby's algorithm, derive an analytical model of link duty cycles, and introduce an iterative procedure that resolves the circular dependency among duty cycle, link capacity, and contention probability. 
 Our numerical experiments show that the proposed NDT accurately predicts link duty cycles and congestion patterns with up to a 5000× speedup over packet-level simulation, and enables us to optimize link scheduling using gradient descent for reduced congestion and radio footprint.
+```
+@INPROCEEDINGS{11443889,
+  author={Zhao, Zhongyuan and Ming, Yujun and Chan, Kevin and Swami, Ananthram and Segarra, Santiago},
+  booktitle={2025 59th Asilomar Conference on Signals, Systems, and Computers}, 
+  title={A Differentiable Digital Twin of Distributed Link Scheduling for Contention-Aware Networking}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={45-49},
+  keywords={Analytical models;Costs;Processor scheduling;Wireless networks;Media Access Control;Spread spectrum communication;Routing;Digital twins;Optimization;Tuning;Wireless multi-hop networks;network digital twin;link scheduling;randomized contention;network optimization},
+  doi={10.1109/IEEECONF67917.2025.11443889}}
+```
+
 ## Instructions for replicate numerical experiments
 ### Runtime evaluation
 ```bash
