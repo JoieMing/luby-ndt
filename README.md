@@ -32,7 +32,6 @@ Application 2 (Enhance congestion protection by combining optimized link priorit
 bash bash/dt_optimization_control.sh
 ```
 ## Citation
--------------
 ```
 @INPROCEEDINGS{11443889,
   author={Zhao, Zhongyuan and Ming, Yujun and Chan, Kevin and Swami, Ananthram and Segarra, Santiago},
