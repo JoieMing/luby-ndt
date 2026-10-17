@@ -1,5 +1,6 @@
 # A Differentiable Digital Twin of Distributed Link Scheduling for Contention-Aware Networking
-**Conference paper:** [2025 Asilomar](https://ieeexplore.ieee.org/document/11443889) //
+**Conference paper:** [2025 Asilomar](https://ieeexplore.ieee.org/document/11443889) 
+
 **arXiv preprint:** [arXiv:2512.10874](https://arxiv.org/abs/2512.10874)
 
 ## Abstract
